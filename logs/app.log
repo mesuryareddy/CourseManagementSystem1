@@ -1,0 +1,43 @@
+[2025-02-20 07:21:06] [SEVERE] dao.BaseDAO - Error inserting data: could not execute statement [ORA-01400: cannot insert NULL into ("N01719792"."STUDENTTEST"."STUDENT_ID")
+
+https://docs.oracle.com/error-help/db/ora-01400/] [insert into studenttest (ENROLLMENT_DATE,EMAIL,NAME,PHONE,STUDENT_ID) values (?,?,?,?,default)] Rolling back transaction.
+[2025-02-20 07:25:23] [INFO] dao.BaseDAO - Data inserted successfully: Student{studentId=1, studentName='Surya', studentEmail='surya@gmail.com', studentPhone='3672302435', enrollmentDate='2025-02-20'}
+[2025-02-20 07:44:59] [SEVERE] dao.BaseDAO - Error inserting data: could not execute statement [ORA-02291: integrity constraint (N01719792.SYS_C001062491) violated - parent key not found
+
+https://docs.oracle.com/error-help/db/ora-02291/] [insert into coursetest (COURSE_NAME,CREDITS,INSTRUCTOR_ID,COURSE_ID) values (?,?,?,?)] Rolling back transaction.
+[2025-02-20 07:44:59] [SEVERE] dao.BaseDAO - Error inserting data: could not execute statement [ORA-02291: integrity constraint (N01719792.SYS_C001062491) violated - parent key not found
+
+https://docs.oracle.com/error-help/db/ora-02291/] [insert into coursetest (COURSE_NAME,CREDITS,INSTRUCTOR_ID,COURSE_ID) values (?,?,?,?)]
+[2025-02-20 07:48:09] [SEVERE] dao.BaseDAO - Error inserting data: could not execute statement [ORA-02291: integrity constraint (N01719792.SYS_C001062491) violated - parent key not found
+
+https://docs.oracle.com/error-help/db/ora-02291/] [insert into coursetest (COURSE_NAME,CREDITS,INSTRUCTOR_ID,COURSE_ID) values (?,?,?,?)] Rolling back transaction.
+[2025-02-20 07:48:09] [SEVERE] dao.BaseDAO - Error inserting data: could not execute statement [ORA-02291: integrity constraint (N01719792.SYS_C001062491) violated - parent key not found
+
+https://docs.oracle.com/error-help/db/ora-02291/] [insert into coursetest (COURSE_NAME,CREDITS,INSTRUCTOR_ID,COURSE_ID) values (?,?,?,?)]
+[2025-02-20 07:49:45] [SEVERE] dao.BaseDAO - Error inserting data: could not execute statement [ORA-02291: integrity constraint (N01719792.SYS_C001062491) violated - parent key not found
+
+https://docs.oracle.com/error-help/db/ora-02291/] [insert into coursetest (COURSE_NAME,CREDITS,INSTRUCTOR_ID,COURSE_ID) values (?,?,?,?)] Rolling back transaction.
+[2025-02-20 07:49:45] [SEVERE] dao.BaseDAO - Error inserting data: could not execute statement [ORA-02291: integrity constraint (N01719792.SYS_C001062491) violated - parent key not found
+
+https://docs.oracle.com/error-help/db/ora-02291/] [insert into coursetest (COURSE_NAME,CREDITS,INSTRUCTOR_ID,COURSE_ID) values (?,?,?,?)]
+[2025-02-20 07:54:13] [SEVERE] dao.BaseDAO - Error inserting data: Unable to locate persister: model.Instructor Rolling back transaction.
+[2025-02-20 07:55:09] [INFO] dao.BaseDAO - Data inserted successfully: Instructor{instructorId=0, instructorName='Surya', instructorEmail='surya@gmail.com', instructorDepartment='FAST', instructorPhone='65397128'}
+[2025-02-20 07:56:06] [INFO] dao.BaseDAO - Data inserted successfully: Course{courseId=4, courseName='Java', creditHours=3, instructorId=0}
+[2025-02-20 08:33:30] [INFO] dao.BaseDAO - Data inserted successfully: Student{studentId=2, studentName='Karthik', studentEmail='karthik@gmail.com', studentPhone='3481239430', enrollmentDate='2025-02-20'}
+[2025-02-20 08:34:47] [INFO] dao.BaseDAO - Data updated successfully: Student{studentId=2, studentName='B Karthik', studentEmail='karthikb@gmail.com', studentPhone='57679877656', enrollmentDate='2025-02-20'}
+[2025-02-20 08:37:20] [INFO] dao.BaseDAO - Data inserted successfully: Student{studentId=3, studentName='deleteme', studentEmail='deleteme@gmail.com', studentPhone='34524523', enrollmentDate='2025-02-20'}
+[2025-02-20 08:37:53] [INFO] dao.BaseDAO - Data deleted successfully: Student{studentId=3, studentName='deleteme', studentEmail='deleteme@gmail.com', studentPhone='34524523', enrollmentDate='2025-02-20'}
+[2025-02-20 09:01:11] [INFO] dao.BaseDAO - Data inserted successfully: Course{courseId=5, courseName='Oracle PL/SQL', creditHours=3, instructorId=0}
+[2025-02-20 09:04:20] [INFO] dao.BaseDAO - Data updated successfully: Course{courseId=5, courseName='Oracle', creditHours=2, instructorId=0}
+[2025-02-20 09:05:13] [INFO] dao.BaseDAO - Data inserted successfully: Course{courseId=6, courseName='deleteme', creditHours=2, instructorId=0}
+[2025-02-20 09:05:34] [INFO] dao.BaseDAO - Data deleted successfully: Course{courseId=6, courseName='deleteme', creditHours=2, instructorId=0}
+[2025-02-20 09:18:21] [SEVERE] dao.BaseDAO - Error inserting data: could not execute statement [ORA-00001: unique constraint (N01719792.SYS_C001062485) violated
+
+https://docs.oracle.com/error-help/db/ora-00001/] [insert into instructortest (DEPARTMENT,EMAIL,NAME,PHONE,INSTRUCTOR_ID) values (?,?,?,?,?)] Rolling back transaction.
+[2025-02-20 09:18:21] [SEVERE] dao.BaseDAO - Error inserting data: could not execute statement [ORA-00001: unique constraint (N01719792.SYS_C001062485) violated
+
+https://docs.oracle.com/error-help/db/ora-00001/] [insert into instructortest (DEPARTMENT,EMAIL,NAME,PHONE,INSTRUCTOR_ID) values (?,?,?,?,?)]
+[2025-02-20 09:19:55] [INFO] dao.BaseDAO - Data inserted successfully: Instructor{instructorId=1, instructorName='karthik', instructorEmail='karthik@gmail.com', instructorDepartment='FAST', instructorPhone='345476576'}
+[2025-02-20 09:20:37] [INFO] dao.BaseDAO - Data updated successfully: Instructor{instructorId=1, instructorName='Karthik B', instructorEmail='karthikb@gmail.com', instructorDepartment='FAST', instructorPhone='345476576'}
+[2025-02-20 09:21:01] [INFO] dao.BaseDAO - Data inserted successfully: Instructor{instructorId=2, instructorName='deleteme', instructorEmail='deleteme@gmail.com', instructorDepartment='deleteme', instructorPhone='2345656'}
+[2025-02-20 09:21:06] [INFO] dao.BaseDAO - Data deleted successfully: Instructor{instructorId=2, instructorName='deleteme', instructorEmail='deleteme@gmail.com', instructorDepartment='deleteme', instructorPhone='2345656'}

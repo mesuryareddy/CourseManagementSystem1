@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="hibernate-core-6.6.7.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/hibernate-core-6.6.7.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/antlr4-runtime-4.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/byte-buddy-1.14.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/classmate-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/hibernate-commons-annotations-6.0.6.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/hibernate-validator-8.0.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/istack-commons-runtime-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/jakarta.activation-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/jakarta.persistence-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/jakarta.transaction-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/jakarta.xml.bind-api-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/jaxb-core-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/jaxb-impl-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/jaxb-runtime-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/Hibernate/jboss-logging-3.5.3.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
